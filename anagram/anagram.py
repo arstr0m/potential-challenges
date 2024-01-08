@@ -9,8 +9,6 @@ For example, the call is_anagram("typhoon", "opython") should return True while 
 """tambien existe lista.sort()"""
 """split parte la string con un identificador , split(string, ",")"""
 def is_anagram(first_text, second_text):
-    print(sorted(list(first_text)))
-    print(sorted(list(second_text)))
     if sorted(list(second_text)) == sorted(list(first_text)):
         return True
     else: 
